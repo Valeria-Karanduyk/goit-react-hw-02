@@ -1,0 +1,24 @@
+.box {
+    position: relative;
+}
+
+.list {
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px lightcyan;
+}
+
+.item {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #242424;
+    text-shadow: 1px 1px 2px #adacb1;
+}
+
+.count {
+    font-weight: 700;
+    color: rgb(15, 19, 9);
+}
