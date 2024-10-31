@@ -4,17 +4,25 @@ const Options = ({ update, reset, total }) => {
   return (
     <div className={s.box}>
       <div>
-        <button className={s.btn} type="button" onClick={() => update("good")}>
+        <button
+          className={s.btnGood}
+          type="button"
+          onClick={() => update("good")}
+        >
           Good
         </button>
         <button
-          className={s.btn}
+          className={s.btnNeutral}
           type="button"
           onClick={() => update("neutral")}
         >
           Neutral
         </button>
-        <button className={s.btn} type="button" onClick={() => update("bad")}>
+        <button
+          className={s.btnBad}
+          type="button"
+          onClick={() => update("bad")}
+        >
           Bad
         </button>
       </div>
