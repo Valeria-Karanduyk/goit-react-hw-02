@@ -1,0 +1,12 @@
+.text {
+    background-color: lightcyan;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px 5px lightcyan;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        color: #242424;
+}

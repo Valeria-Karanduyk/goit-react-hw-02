@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Description from "./components/Description/Description";
 import Options from "./components/Options/Options";
 import Feedback from "./components/Feedback/Feedback";
+import Notification from "./components/Notification/Notification";
 
 const App = () => {
   // const [clicks, setClicks] = useState(() => {
@@ -57,7 +58,11 @@ const App = () => {
         reset={resetFeedback}
         total={totalFeedback}
       />
-      <Feedback clicks={clicks} total={totalFeedback} />
+      {totalFeedback === 0 ? (
+        <Notification />
+      ) : (
+        <Feedback clicks={clicks} total={totalFeedback} />
+      )}
     </div>
   );
 };
